@@ -1,0 +1,33 @@
+
+.container {
+    margin: auto; 
+}
+
+.navbar-brand{
+    font-size: 30px;
+    margin-right: auto;
+}
+
+.custom-navbar {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(15, 96, 218); 
+    justify-items: flex-start;
+}
+
+
+/* Style the user grid */
+#user-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgb(142, 232, 232);
+}
