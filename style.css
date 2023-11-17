@@ -1,20 +1,19 @@
-
 .container {
-    margin: auto; 
+    margin: auto;
+    padding: 20px;
 }
 
-.navbar-brand{
-    font-size: 30px;
-    margin-right: auto;
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .custom-navbar {
     display: flex;
-    align-items: flex-start;
-    background-color: rgb(15, 96, 218); 
-    justify-items: flex-start;
+    align-items: center;
+    background-color: rgb(15, 96, 218);
 }
-
 
 /* Style the user grid */
 #user-grid {
@@ -24,10 +23,17 @@
 }
 
 .user-card {
-    border: 1px solid #ccc;
-    
-    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     margin: 15px;
     text-align: center;
-    background-color: rgb(142, 232, 232);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
